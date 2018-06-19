@@ -57,6 +57,8 @@ sudo -S $myPassword pip install -U sklearn
 sudo -S $myPassword pip install -U scipy
 sudo -S $myPassword pip install pyocr
 
+wget https://github.com/opencv/opencv_contrib/archive/3.3.1.zip
+wget https://github.com/opencv/opencv/archive/3.3.0.zip
 
 unzip opencv.zip
 unzip opencv_contrib.zip
