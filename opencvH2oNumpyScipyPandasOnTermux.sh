@@ -32,7 +32,7 @@ apt update
 apt-get --assume-yes install openblas libllvm clang cmake libjpeg-turbo-dev
 apt-get --assume-yes install python python-dev fftw libzmq libzmq-dev freetype freetype-dev 
 apt-get --assume-yes install libpng libpng-dev pkg-config libgmp-dev libmpc-dev libmpfr-dev
-apt-get --assume-yes install scipy zlib zlib-dev gcc-8 libgfortran-8 julia libffi
+apt-get --assume-yes install scipy zlib zlib-dev gcc-8 libgfortran-8 julia
 pip3.7 install -U pip
 pip3.7 install -U setuptools
 pip3.7 install -U wheel
