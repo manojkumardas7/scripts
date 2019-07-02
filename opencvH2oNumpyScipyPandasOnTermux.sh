@@ -2,16 +2,16 @@
 #title           :opencv.sh for CPU use only (non-GPU)
 #description     :This script install alll required dependecies for video analytics on termux for android,
 #                 script has been tested on a oneplus 7 pro 8GB version device
-#author		     :Manoj Kumar Das
+#author		       :Manoj Kumar Das
 #date            :2019/07/02
 #version         :0.1    
-#usage		     :sh opencvH2oNumpyScipyPandasOnTermux.sh
+#usage		       :sh opencvH2oNumpyScipyPandasOnTermux.sh
 #==============================================================================
 #To enable storage access run below command
 # termux-setup-storage
 pkg update
 apt-get --assume-yes upgrade 
-apt-get --assume-yes install curl nano gnupg coreutils gnupg wget man screen htop git
+apt-get --assume-yes install curl nano gnupg coreutils gnupg wget man htop git
 
 
 # Make the sources.list.d directory
