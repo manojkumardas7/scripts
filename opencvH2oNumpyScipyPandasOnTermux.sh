@@ -51,6 +51,7 @@ pip3.7 install -U gmpy2
 pip3.7 install -U pymysql
 pip3.7 install -U h2o
 
+#clong opencv project
 git clone https://github.com/opencv/opencv
 cd opencv
 mkdir build && cd build
